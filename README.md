@@ -1,1 +1,1 @@
-# LedsBoard
+#  LedsBoard is a STM32F103zet6 project
