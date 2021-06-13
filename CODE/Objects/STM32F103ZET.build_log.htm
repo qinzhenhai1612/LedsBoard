@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.12.0.0
+Copyright (C) 2014 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 1, 1, LIC=PE7DY-ITFYN-KPAZY-IXSZE-MY3S6-3YVQ6
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.12.0.0
+Toolchain Path:  E:\install_files\keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 (build 41)
+Assembler:       Armasm.exe V5.05 (build 41)
+Linker/Locator:  ArmLink.exe V5.05 (build 41)
+Library Manager: ArmAr.exe V5.05 (build 41)
+Hex Converter:   FromElf.exe V5.05 (build 41)
+CPU DLL:         SARMCM3.DLL V5.12.0.0
+Dialog DLL:      DCM.DLL V1.13.0.0
+    Target DLL: Segger\JL2CM3.dll
+Dialog DLL:      TCM.DLL V1.14.2.0
+ 
+<h2>Project:</h2>
+E:\Keil_Project\STM32F103ZET6_2\STM32F103ZET.uvprojx
+Project File Date:  11/05/2020
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+compiling core_cm3.c...
+assembling startup_stm32f10x_hd.s...
+compiling main.c...
+USER\main.c(51): error:  #5: cannot open source input file "delay.h": No such file or directory
+  #include "delay.h"
+USER\main.c: 0 warnings, 1 error
+compiling stm32f10x_it.c...
+compiling system_stm32f10x.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_usart.c...
+STM32F10X_LIB\src\stm32f10x_usart.c(3): error:  #5: cannot open source input file "sys.h": No such file or directory
+  #include "sys.h"
+STM32F10X_LIB\src\stm32f10x_usart.c: 0 warnings, 1 error
+compiling stm32f10x_tim.c...
+".\Objects\STM32F103ZET.axf" - 2 Error(s), 0 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  E:\Keil_Project\STM32F103ZET6_2\RTE
+  E:\install_files\keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.2\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
