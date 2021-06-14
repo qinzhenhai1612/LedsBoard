@@ -57,7 +57,7 @@ int main (void)
 		
 		while(1) 
 		{
-			for(i=0;i<3;i++)
+			for(i=0;i<8;i++)
 			{
 				LED_ON(i);
 				delay(8000000);
