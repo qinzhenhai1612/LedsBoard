@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram id="JjUnV6bOo0cUcBlsrNCr" name="GateLocker门禁终端硬件系统框图">
-    <mxGraphModel dx="1571" dy="782" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1571" dy="782" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -79,25 +79,25 @@
         <mxCell id="EOIqCzflqUVAwcGKjHEf-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F2F3F5;strokeColor=#86909C;align=center;verticalAlign=middle;fontSize=10;fontFamily=微软雅黑" value="串口调试接口&lt;font class=&quot;__Cici__translate__ __Cici_translate_similar_text_content__&quot;&gt;&lt;font class=&quot;__Cici_translate_origin_node__&quot; style=&quot;display: none;&quot;&gt;串口调试接口&lt;/font&gt; &lt;font class=&quot;__Cici_translate_translated_inject_node__&quot; style=&quot;display: inline-block;&quot;&gt;&lt;span&gt;串口调试接口&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;br data-doubao-translate-traverse-mark=&quot;1&quot;&gt;日志输出/调试&lt;font class=&quot;__Cici__translate__ __Cici_translate_similar_text_content__&quot;&gt;&lt;font class=&quot;__Cici_translate_origin_node__&quot; style=&quot;display: none;&quot;&gt;日志输出/指调试&lt;/font&gt; &lt;font class=&quot;__Cici_translate_translated_inject_node__&quot; style=&quot;display: inline-block;&quot;&gt;&lt;span&gt;日志输出/指调试&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="140" x="650" y="580" as="geometry" />
         </mxCell>
-        <mxCell id="EOIqCzflqUVAwcGKjHEf-26" edge="1" parent="1" source="EOIqCzflqUVAwcGKjHEf-4" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#00B42A" target="EOIqCzflqUVAwcGKjHEf-2" value="">
+        <mxCell id="EOIqCzflqUVAwcGKjHEf-26" edge="1" parent="1" source="EOIqCzflqUVAwcGKjHEf-4" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#00B42A;startArrow=block;startFill=1;" target="EOIqCzflqUVAwcGKjHEf-2" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EOIqCzflqUVAwcGKjHEf-27" edge="1" parent="1" source="EOIqCzflqUVAwcGKjHEf-7" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#F53F3F" target="EOIqCzflqUVAwcGKjHEf-2" value="">
+        <mxCell id="EOIqCzflqUVAwcGKjHEf-27" edge="1" parent="1" source="EOIqCzflqUVAwcGKjHEf-7" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#F53F3F;startArrow=block;startFill=1;" target="EOIqCzflqUVAwcGKjHEf-2" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EOIqCzflqUVAwcGKjHEf-28" edge="1" parent="1" source="EOIqCzflqUVAwcGKjHEf-2" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#722ED1" target="EOIqCzflqUVAwcGKjHEf-12" value="">
+        <mxCell id="EOIqCzflqUVAwcGKjHEf-28" edge="1" parent="1" source="EOIqCzflqUVAwcGKjHEf-2" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#722ED1;startArrow=block;startFill=1;" target="EOIqCzflqUVAwcGKjHEf-12" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EOIqCzflqUVAwcGKjHEf-29" edge="1" parent="1" source="EOIqCzflqUVAwcGKjHEf-2" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#FF7D00" target="EOIqCzflqUVAwcGKjHEf-17" value="">
+        <mxCell id="EOIqCzflqUVAwcGKjHEf-29" edge="1" parent="1" source="EOIqCzflqUVAwcGKjHEf-2" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#FF7D00;startArrow=block;startFill=1;" target="EOIqCzflqUVAwcGKjHEf-17" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EOIqCzflqUVAwcGKjHEf-30" edge="1" parent="1" source="EOIqCzflqUVAwcGKjHEf-20" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#00BFC4;startArrow=classic;startFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+        <mxCell id="EOIqCzflqUVAwcGKjHEf-30" edge="1" parent="1" source="EOIqCzflqUVAwcGKjHEf-20" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#00BFC4;startArrow=block;startFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="639.5" y="250" as="sourcePoint" />
             <mxPoint x="639.5" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EOIqCzflqUVAwcGKjHEf-31" edge="1" parent="1" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#86909C" value="">
+        <mxCell id="EOIqCzflqUVAwcGKjHEf-31" edge="1" parent="1" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#86909C;startArrow=block;startFill=1;" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="639.5" y="380" as="sourcePoint" />
             <mxPoint x="640" y="510" as="targetPoint" />
