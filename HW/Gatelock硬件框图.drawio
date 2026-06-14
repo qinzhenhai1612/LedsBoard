@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram id="JjUnV6bOo0cUcBlsrNCr" name="GateLocker门禁终端硬件系统框图">
-    <mxGraphModel dx="1571" dy="782" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1571" dy="840" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,7 +49,7 @@
         <mxCell id="EOIqCzflqUVAwcGKjHEf-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F3E8FF;strokeColor=#722ED1;align=center;verticalAlign=middle;fontSize=10;fontFamily=微软雅黑" value="状态指示&lt;br&gt;电源/运行/网络/告警 LED" vertex="1">
           <mxGeometry height="30" width="200" x="940" y="310" as="geometry" />
         </mxCell>
-        <mxCell id="EOIqCzflqUVAwcGKjHEf-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F3E8FF;strokeColor=#722ED1;align=center;verticalAlign=middle;fontSize=10;fontFamily=微软雅黑" value="音频输出&lt;font class=&quot;__Cici__translate__ __Cici_translate_similar_text_content__&quot;&gt;&lt;font class=&quot;__Cici_translate_origin_node__&quot; style=&quot;display: none;&quot;&gt;音频输出&lt;/font&gt; &lt;font class=&quot;__Cici_translate_translated_inject_node__&quot; style=&quot;display: inline-block;&quot;&gt;&lt;span&gt;音频输出&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;br data-doubao-translate-traverse-mark=&quot;1&quot;&gt;Lineout&lt;font class=&quot;__Cici__translate__ __Cici_translate_similar_text_content__&quot;&gt;&lt;font class=&quot;__Cici_translate_translated_inject_node__&quot; style=&quot;display: inline-block;&quot;&gt;&lt;span&gt;I2S 音频功放+喇叭&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;" vertex="1">
+        <mxCell id="EOIqCzflqUVAwcGKjHEf-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F3E8FF;strokeColor=#722ED1;align=center;verticalAlign=middle;fontSize=10;fontFamily=微软雅黑" value="音频输出&lt;font class=&quot;__Cici__translate__&quot; data-translating=&quot;true&quot;&gt;&lt;font class=&quot;__Cici_translate_origin_node__&quot; style=&quot;display: none;&quot;&gt;音频输出&lt;/font&gt;&lt;font class=&quot;__Cici_translate_loading__&quot; style=&quot;display: inline-block;&quot;&gt;&lt;i class=&quot;__Cici_translate_loading_inner__&quot;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/font&gt;&lt;div data-doubao-translate-traverse-mark=&quot;1&quot;&gt;&lt;/div&gt;&lt;div data-doubao-translate-traverse-mark=&quot;1&quot; data-doubao-translate-exclude-mark=&quot;1&quot;&gt;WT588F02&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="200" x="940" y="350" as="geometry" />
         </mxCell>
         <mxCell id="EOIqCzflqUVAwcGKjHEf-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF7D00;strokeColor=#B75900;fontColor=white;align=center;verticalAlign=middle;fontSize=12;fontFamily=微软雅黑;fontWeight=bold" value="&lt;b&gt;通信模块&lt;/b&gt;" vertex="1">
@@ -85,8 +85,10 @@
         <mxCell id="EOIqCzflqUVAwcGKjHEf-27" edge="1" parent="1" source="EOIqCzflqUVAwcGKjHEf-7" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#F53F3F;startArrow=block;startFill=1;" target="EOIqCzflqUVAwcGKjHEf-2" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EOIqCzflqUVAwcGKjHEf-28" edge="1" parent="1" source="EOIqCzflqUVAwcGKjHEf-2" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#722ED1;startArrow=block;startFill=1;" target="EOIqCzflqUVAwcGKjHEf-12" value="">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="EOIqCzflqUVAwcGKjHEf-28" edge="1" parent="1" source="EOIqCzflqUVAwcGKjHEf-2" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#722ED1;startArrow=block;startFill=1;exitX=0.937;exitY=0.003;exitDx=0;exitDy=0;exitPerimeter=0;" target="EOIqCzflqUVAwcGKjHEf-12" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="771" y="295" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="EOIqCzflqUVAwcGKjHEf-29" edge="1" parent="1" source="EOIqCzflqUVAwcGKjHEf-2" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#FF7D00;startArrow=block;startFill=1;" target="EOIqCzflqUVAwcGKjHEf-17" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -105,6 +107,9 @@
         </mxCell>
         <mxCell id="EOIqCzflqUVAwcGKjHEf-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#F53F3F;align=center;verticalAlign=middle;fontSize=10;fontFamily=微软雅黑" value="指纹模块(Reserved)&lt;font class=&quot;__Cici__translate__ __Cici_translate_similar_text_content__&quot;&gt;&lt;font class=&quot;__Cici_translate_origin_node__&quot; style=&quot;display: none;&quot;&gt;MFRC522 射频模块&lt;/font&gt;&lt;font class=&quot;__Cici_translate_translated_inject_node__&quot; style=&quot;display: inline-block;&quot;&gt;&lt;span&gt;MFRC522 射频模块&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="200" x="140" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="r4jLRtohh7AFSdW0hNlP-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E5F6EA;strokeColor=#00B42A;align=center;verticalAlign=middle;fontSize=10;fontFamily=微软雅黑" value="主电源输入&lt;font class=&quot;__Cici__translate__&quot; data-translating=&quot;true&quot;&gt;&lt;font class=&quot;__Cici_translate_origin_node__&quot; style=&quot;display: none;&quot;&gt;主电源输入&lt;/font&gt;&lt;font class=&quot;__Cici_translate_loading__&quot; style=&quot;display: inline-block;&quot;&gt;&lt;i class=&quot;__Cici_translate_loading_inner__&quot;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/font&gt;&lt;div data-doubao-translate-traverse-mark=&quot;1&quot;&gt;预留POE供电&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="200" x="140" y="348" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
