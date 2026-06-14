@@ -1,0 +1,109 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="GateLocker门禁终端硬件系统框图" id="1js39GU4koNlLLKIXu-y">
+    <mxGraphModel dx="1178" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="f1TgDDNYEtDy5cZSVJ-l-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontWeight=bold;fontFamily=微软雅黑" value="GateLocker门禁终端硬件系统框图" vertex="1">
+          <mxGeometry height="40" width="400" x="400" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f1TgDDNYEtDy5cZSVJ-l-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#165DFF;strokeColor=#0F3FA8;fontColor=white;align=center;verticalAlign=middle;fontSize=12;fontFamily=微软雅黑;fontWeight=bold" value="&lt;b&gt;核心控制单元&lt;/b&gt;&lt;br&gt;STM32H743IIT6&lt;br&gt;480MHz Cortex-M7 | 2MB Flash | 1MB SRAM" vertex="1">
+          <mxGeometry height="80" width="300" x="450" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="f1TgDDNYEtDy5cZSVJ-l-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00B42A;strokeColor=#007D1F;fontColor=white;align=center;verticalAlign=middle;fontSize=12;fontFamily=微软雅黑;fontWeight=bold" value="&lt;b&gt;电源管理模块&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="100" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="f1TgDDNYEtDy5cZSVJ-l-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E5F6EA;strokeColor=#00B42A;align=center;verticalAlign=middle;fontSize=10;fontFamily=微软雅黑" value="核心供电&lt;br&gt;3.3V/1.2V LDO" vertex="1">
+          <mxGeometry height="30" width="200" x="100" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="f1TgDDNYEtDy5cZSVJ-l-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E5F6EA;strokeColor=#00B42A;align=center;verticalAlign=middle;fontSize=10;fontFamily=微软雅黑" value="外设供电&lt;br&gt;5V/12V 电源输出" vertex="1">
+          <mxGeometry height="30" width="200" x="100" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="f1TgDDNYEtDy5cZSVJ-l-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E5F6EA;strokeColor=#00B42A;align=center;verticalAlign=middle;fontSize=10;fontFamily=微软雅黑" value="电源保护&lt;br&gt;ESD防护/过流/过压保护" vertex="1">
+          <mxGeometry height="30" width="200" x="100" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="f1TgDDNYEtDy5cZSVJ-l-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F53F3F;strokeColor=#B71D1D;fontColor=white;align=center;verticalAlign=middle;fontSize=12;fontFamily=微软雅黑;fontWeight=bold" value="&lt;b&gt;输入采集模块&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="100" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="f1TgDDNYEtDy5cZSVJ-l-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#F53F3F;align=center;verticalAlign=middle;fontSize=10;fontFamily=微软雅黑" value="图像采集&lt;br&gt;DCMI 摄像头模组" vertex="1">
+          <mxGeometry height="30" width="200" x="100" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="f1TgDDNYEtDy5cZSVJ-l-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#F53F3F;align=center;verticalAlign=middle;fontSize=10;fontFamily=微软雅黑" value="人体检测&lt;br&gt;PIR 红外人体传感器" vertex="1">
+          <mxGeometry height="30" width="200" x="100" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="f1TgDDNYEtDy5cZSVJ-l-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#F53F3F;align=center;verticalAlign=middle;fontSize=10;fontFamily=微软雅黑" value="门状态检测&lt;br&gt;门磁微动开关" vertex="1">
+          <mxGeometry height="30" width="200" x="100" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="f1TgDDNYEtDy5cZSVJ-l-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#F53F3F;align=center;verticalAlign=middle;fontSize=10;fontFamily=微软雅黑" value="RFID读卡&lt;br&gt;MFRC522 射频模块" vertex="1">
+          <mxGeometry height="30" width="200" x="100" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="f1TgDDNYEtDy5cZSVJ-l-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#722ED1;strokeColor=#4A1A99;fontColor=white;align=center;verticalAlign=middle;fontSize=12;fontFamily=微软雅黑;fontWeight=bold" value="&lt;b&gt;输出控制模块&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="900" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="f1TgDDNYEtDy5cZSVJ-l-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F3E8FF;strokeColor=#722ED1;align=center;verticalAlign=middle;fontSize=10;fontFamily=微软雅黑" value="显示输出&lt;br&gt;RGB TFT 5寸液晶屏" vertex="1">
+          <mxGeometry height="30" width="200" x="900" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="f1TgDDNYEtDy5cZSVJ-l-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F3E8FF;strokeColor=#722ED1;align=center;verticalAlign=middle;fontSize=10;fontFamily=微软雅黑" value="门锁控制&lt;br&gt;12V 阴极锁继电器" vertex="1">
+          <mxGeometry height="30" width="200" x="900" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="f1TgDDNYEtDy5cZSVJ-l-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F3E8FF;strokeColor=#722ED1;align=center;verticalAlign=middle;fontSize=10;fontFamily=微软雅黑" value="状态指示&lt;br&gt;电源/运行/网络/告警 LED" vertex="1">
+          <mxGeometry height="30" width="200" x="900" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="f1TgDDNYEtDy5cZSVJ-l-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F3E8FF;strokeColor=#722ED1;align=center;verticalAlign=middle;fontSize=10;fontFamily=微软雅黑" value="音频输出&lt;br&gt;I2S 音频功放+喇叭" vertex="1">
+          <mxGeometry height="30" width="200" x="900" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="f1TgDDNYEtDy5cZSVJ-l-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF7D00;strokeColor=#B75900;fontColor=white;align=center;verticalAlign=middle;fontSize=12;fontFamily=微软雅黑;fontWeight=bold" value="&lt;b&gt;通信模块&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="900" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="f1TgDDNYEtDy5cZSVJ-l-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFEEDC;strokeColor=#FF7D00;align=center;verticalAlign=middle;fontSize=10;fontFamily=微软雅黑" value="以太网通信&lt;br&gt;RMII 10/100M 网口" vertex="1">
+          <mxGeometry height="30" width="200" x="900" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="f1TgDDNYEtDy5cZSVJ-l-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFEEDC;strokeColor=#FF7D00;align=center;verticalAlign=middle;fontSize=10;fontFamily=微软雅黑" value="调试通信&lt;br&gt;USART 调试串口" vertex="1">
+          <mxGeometry height="30" width="200" x="900" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="f1TgDDNYEtDy5cZSVJ-l-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00BFC4;strokeColor=#00868A;fontColor=white;align=center;verticalAlign=middle;fontSize=12;fontFamily=微软雅黑;fontWeight=bold" value="&lt;b&gt;存储模块&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="300" x="450" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="f1TgDDNYEtDy5cZSVJ-l-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E5F6F7;strokeColor=#00BFC4;align=center;verticalAlign=middle;fontSize=10;fontFamily=微软雅黑" value="程序存储&lt;br&gt;QSPI Flash 固件存储" vertex="1">
+          <mxGeometry height="30" width="140" x="450" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="f1TgDDNYEtDy5cZSVJ-l-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E5F6F7;strokeColor=#00BFC4;align=center;verticalAlign=middle;fontSize=10;fontFamily=微软雅黑" value="数据存储&lt;br&gt;SDMMC TF卡 数据存储" vertex="1">
+          <mxGeometry height="30" width="140" x="610" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="f1TgDDNYEtDy5cZSVJ-l-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#86909C;strokeColor=#4E5969;fontColor=white;align=center;verticalAlign=middle;fontSize=12;fontFamily=微软雅黑;fontWeight=bold" value="&lt;b&gt;调试与下载模块&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="300" x="450" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="f1TgDDNYEtDy5cZSVJ-l-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F2F3F5;strokeColor=#86909C;align=center;verticalAlign=middle;fontSize=10;fontFamily=微软雅黑" value="SWD调试接口&lt;br&gt;程序下载/在线调试" vertex="1">
+          <mxGeometry height="30" width="140" x="450" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="f1TgDDNYEtDy5cZSVJ-l-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F2F3F5;strokeColor=#86909C;align=center;verticalAlign=middle;fontSize=10;fontFamily=微软雅黑" value="串口调试接口&lt;br&gt;日志输出/指令调试" vertex="1">
+          <mxGeometry height="30" width="140" x="610" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="f1TgDDNYEtDy5cZSVJ-l-26" edge="1" parent="1" source="f1TgDDNYEtDy5cZSVJ-l-4" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#00B42A" target="f1TgDDNYEtDy5cZSVJ-l-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f1TgDDNYEtDy5cZSVJ-l-27" edge="1" parent="1" source="f1TgDDNYEtDy5cZSVJ-l-7" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#F53F3F" target="f1TgDDNYEtDy5cZSVJ-l-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f1TgDDNYEtDy5cZSVJ-l-28" edge="1" parent="1" source="f1TgDDNYEtDy5cZSVJ-l-2" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#722ED1" target="f1TgDDNYEtDy5cZSVJ-l-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f1TgDDNYEtDy5cZSVJ-l-29" edge="1" parent="1" source="f1TgDDNYEtDy5cZSVJ-l-2" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#FF7D00" target="f1TgDDNYEtDy5cZSVJ-l-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f1TgDDNYEtDy5cZSVJ-l-30" edge="1" parent="1" source="f1TgDDNYEtDy5cZSVJ-l-20" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#00BFC4;startArrow=classic;startFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="599.5" y="210" as="sourcePoint" />
+            <mxPoint x="599.5" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f1TgDDNYEtDy5cZSVJ-l-31" edge="1" parent="1" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#86909C" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="599.5" y="340" as="sourcePoint" />
+            <mxPoint x="600" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
